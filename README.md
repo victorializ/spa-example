@@ -3,5 +3,5 @@ simple spa routing example using vanilla js
 
 ```
 npm i -g live-server
-live-server
+live-server --entry-file=index.html
 ```
