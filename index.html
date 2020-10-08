@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>SPA example</title>
+        <link rel="stylesheet" type="text/css" href="variables.css">
+        <link rel="stylesheet" type="text/css" href="components/home/style.css">
+        <link rel="stylesheet" type="text/css" href="components/about/style.css">
+        <link rel="stylesheet" type="text/css" href="components/products/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a onclick="route('home')">Home</a></li>
+                <li><a onclick="route('about')">About</a></li>
+                <li><a onclick="route('products')">Products</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="home" style="display: none;">
+                <h1>Home page content</h1>
+            </section>
+            <section id="about" style="display: none;">
+                <h1>About page content</h1>
+            </section>
+            <section id="products" style="display: none;">
+                <h1>Products page content</h1>
+            </section>
+        </main>
+    </body>
+    <script src="routrer.js"></script>
+    <script src="components/home/script.js"></script>
+    <script src="components/about/script.js"></script>
+    <script src="components/products/script.js"></script>
+</html>
